@@ -25,6 +25,11 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             alert.addAction(UIAlertAction(title: "Aww.", style: UIAlertActionStyle.default, handler: nil))
             self.present(alert, animated: true)
         }
+        
+        CardCollection.instance.nextQuestion()
+        
+        setupCardUI()
+        
     }
     @IBOutlet weak var questionLabel: UILabel!
     
@@ -45,6 +50,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         questionTextView.text = CardCollection.instance.currentCard.question
         
         questionLabel.text = "Question \(CardCollection.instance.currentIndex + 1)/\(CardCollection.instance.cards.count)"
+        
+        answerPickerView.reloadAllComponents()
     }
 
     public func numberOfComponents(in pickerView: UIPickerView) -> Int {
