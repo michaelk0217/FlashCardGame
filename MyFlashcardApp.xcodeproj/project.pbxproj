@@ -12,6 +12,7 @@
 		94D0E60F1F0C281A00B1E3A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D0E60D1F0C281A00B1E3A8 /* Main.storyboard */; };
 		94D0E6111F0C281A00B1E3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D0E6101F0C281A00B1E3A8 /* Assets.xcassets */; };
 		94D0E6141F0C281A00B1E3A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D0E6121F0C281A00B1E3A8 /* LaunchScreen.storyboard */; };
+		94D0E61C1F0C59FB00B1E3A8 /* Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E61B1F0C59FB00B1E3A8 /* Flashcards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		94D0E6101F0C281A00B1E3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94D0E6131F0C281A00B1E3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94D0E6151F0C281B00B1E3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D0E61B1F0C59FB00B1E3A8 /* Flashcards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashcards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +57,11 @@
 			isa = PBXGroup;
 			children = (
 				94D0E6091F0C281A00B1E3A8 /* AppDelegate.swift */,
-				94D0E60B1F0C281A00B1E3A8 /* ViewController.swift */,
-				94D0E60D1F0C281A00B1E3A8 /* Main.storyboard */,
+				94D0E61B1F0C59FB00B1E3A8 /* Flashcards.swift */,
 				94D0E6101F0C281A00B1E3A8 /* Assets.xcassets */,
 				94D0E6121F0C281A00B1E3A8 /* LaunchScreen.storyboard */,
+				94D0E60B1F0C281A00B1E3A8 /* ViewController.swift */,
+				94D0E60D1F0C281A00B1E3A8 /* Main.storyboard */,
 				94D0E6151F0C281B00B1E3A8 /* Info.plist */,
 			);
 			path = MyFlashcardApp;
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D0E61C1F0C59FB00B1E3A8 /* Flashcards.swift in Sources */,
 				94D0E60C1F0C281A00B1E3A8 /* ViewController.swift in Sources */,
 				94D0E60A1F0C281A00B1E3A8 /* AppDelegate.swift in Sources */,
 			);
