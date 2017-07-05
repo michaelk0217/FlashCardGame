@@ -46,16 +46,16 @@ class CardCollection {
             Flashcard(question: "Where am I", options: ["iDTech", "Home", "Korea", "Friends House", "In-N-Out"]),
             Flashcard(question: "Is mac or pc better", options: ["Mac", "PC"]),
             Flashcard(question: "When is the concert", options: ["July 14", "July 15", "Next Week"]),
-            Flashcard(question: "Which Highschool do I go to", options: ["Gunn Highschool", "Palo Alto Senior Highschool"]),
-            Flashcard(question: "", options: []),
-            Flashcard(question: "", options: []),
-            Flashcard(question: "", options: []),
-            Flashcard(question: "", options: []),
-            Flashcard(question: "", options: []),
-            Flashcard(question: "", options: []),
-            Flashcard(question: "", options: []),
-            Flashcard(question: "", options: []),
-            Flashcard(question: "", options: [])]
+            Flashcard(question: "Which Highschool do I go to", options: ["Palo Alto Senior Highschool", "Gunn Highschool"]),
+            Flashcard(question: "Which Middleschool did I go to", options: ["Jane Lanthrop Stanford", "Jordan Middle School", "Terman Middle School"]),
+            Flashcard(question: "Which Elementary School did I go to", options: ["Palo Verde", "Fairmeadow"]),
+            Flashcard(question: "What is my mother country", options: ["Korea","USA","Japan"]),
+            Flashcard(question: "How many different countries have I lived in", options: ["3", "4", "2", "1"]),
+            Flashcard(question: "What is my favorite color", options: ["Black", "Blue", "red", "white"]),
+            Flashcard(question: "What kind of phone do I hvae", options: ["iPhone", "Samsung Galaxy", "Andriod"]),
+            Flashcard(question: "What is my current favorite game", options: ["Hearthstone","Overwatch","Heroes of the Storm"]),
+            Flashcard(question: "Am I good at coding", options: ["I don't know", "Yes", "No"]),
+            Flashcard(question: "Am I lazy", options: ["Yes", "I don't know", "No"])]
         
         currentIndex = 0;
         
