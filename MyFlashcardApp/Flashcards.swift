@@ -40,12 +40,22 @@ class CardCollection {
     }
     
     private init() {
-        cards = [ Flashcard(question: "Test Question", options: ["True", "False"]),
+        cards = [
             Flashcard(question: "Who am I", options: ["Michael", "Mitch", "Mike", "Kimchi"]),
             Flashcard(question: "Where Do I live", options: ["Palo Alto", "Seoul", "San Jose", "San Fransisco"]),
             Flashcard(question: "Where am I", options: ["iDTech", "Home", "Korea", "Friends House", "In-N-Out"]),
             Flashcard(question: "Is mac or pc better", options: ["Mac", "PC"]),
-            Flashcard(question: "When is the concert", options: ["July 14", "July 15", "Next Week"])]
+            Flashcard(question: "When is the concert", options: ["July 14", "July 15", "Next Week"]),
+            Flashcard(question: "Which Highschool do I go to", options: ["Gunn Highschool", "Palo Alto Senior Highschool"]),
+            Flashcard(question: "", options: []),
+            Flashcard(question: "", options: []),
+            Flashcard(question: "", options: []),
+            Flashcard(question: "", options: []),
+            Flashcard(question: "", options: []),
+            Flashcard(question: "", options: []),
+            Flashcard(question: "", options: []),
+            Flashcard(question: "", options: []),
+            Flashcard(question: "", options: [])]
         
         currentIndex = 0;
         
